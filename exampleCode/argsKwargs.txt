@@ -1,0 +1,10 @@
+- *ARGS
+- take in an unlimited number of regular variables or arguments
+- Place in function argument to use
+- Prevents program from crashing when you don't know the exact number
+    of arguments!
+
+    Example:
+        def Func(*args):
+            for arg in args:
+                print arg

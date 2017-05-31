@@ -1,0 +1,22 @@
+- Break up code into modules or chunks based on funtionality
+- Prevents having supper long files and having to scrole forever
+- Easier to manage and edit
+- Allows for easier reuse in the future
+
+Importing:
+    - the file that you are importing from must be in the same
+        directory as the other file
+
+Suggestions:
+    - Each base class gets its own file
+    - Seperate based on functionallity
+
+Suggested files to seperate out:
+    Utilities.py
+    Physics.py
+    Collision.py
+    AI.py
+    Main.py
+    Player.py
+    Graphics.py
+    Input.py

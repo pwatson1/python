@@ -1,0 +1,23 @@
+- class
+- variables: plus for public minus for private or protected, declare type or
+    return type
+- functions: plus for public minus for private or protected, declare
+    type or return type
+
+
+Example:
+    - class: Captain
+
+    - variable: + int health
+
+    - function: + void ability to steer()
+
+    Subclass
+        - closed off arrowhead one class "IS A" subcatagory of another class
+
+        - open arrowhead "Knows About" or  "Communicates With" the other
+            class. The connecting line is dashed.
+        - for non-inheriting relationships
+
+    When one class owns instances of another class
+        - it is symbolized by diamonds
